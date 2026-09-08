@@ -63,7 +63,7 @@ public class Factorial {
 
 		int result = 1;
 		//YOUR CODE STARTS HERE
-		for(int i=2; i<=num; i++){
+		for(int i=2; i<=num; i++){ //loop from 2 to num, multiplying result by i each time
 			result=result*i;
 		}
 
